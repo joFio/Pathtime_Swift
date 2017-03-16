@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1B0D331E7AC8DD00D03A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1B0D321E7AC8DD00D03A40 /* Assets.xcassets */; };
 		AB7C13DC1CAFC20C003167F2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7C13DB1CAFC20C003167F2 /* StoreKit.framework */; };
 		AB8927C61E7AA27300546E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927A01E7AA27300546E06 /* AppDelegate.swift */; };
-		AB8927C71E7AA27300546E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8927A11E7AA27300546E06 /* Assets.xcassets */; };
 		AB8927C81E7AA27300546E06 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AB8927A21E7AA27300546E06 /* Base.lproj */; };
 		AB8927C91E7AA27300546E06 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927A31E7AA27300546E06 /* CustomColors.swift */; };
 		AB8927CA1E7AA27300546E06 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927A41E7AA27300546E06 /* CustomFonts.swift */; };
@@ -23,8 +23,6 @@
 		AB8927D21E7AA27300546E06 /* GKCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927AC1E7AA27300546E06 /* GKCenter.swift */; };
 		AB8927D31E7AA27300546E06 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927AD1E7AA27300546E06 /* Graph.swift */; };
 		AB8927D41E7AA27300546E06 /* GraphMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927AE1E7AA27300546E06 /* GraphMap.swift */; };
-		AB8927D51E7AA27300546E06 /* InAppPurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927AF1E7AA27300546E06 /* InAppPurchasesViewController.swift */; };
-		AB8927D61E7AA27300546E06 /* InAppPurchasesViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927B01E7AA27300546E06 /* InAppPurchasesViewController2.swift */; };
 		AB8927D71E7AA27300546E06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB8927B11E7AA27300546E06 /* Info.plist */; };
 		AB8927D81E7AA27300546E06 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8927B21E7AA27300546E06 /* Keys.swift */; };
 		AB8927D91E7AA27300546E06 /* Level.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AB8927B31E7AA27300546E06 /* Level.atlas */; };
@@ -49,10 +47,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB1B0D321E7AC8DD00D03A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Pathtime/Assets.xcassets; sourceTree = "<group>"; };
 		AB5EBE7D1BE3223900C772FD /* Pathtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7C13DB1CAFC20C003167F2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AB8927A01E7AA27300546E06 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Pathtime/AppDelegate.swift; sourceTree = "<group>"; };
-		AB8927A11E7AA27300546E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Pathtime/Assets.xcassets; sourceTree = "<group>"; };
 		AB8927A21E7AA27300546E06 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Pathtime/Base.lproj; sourceTree = "<group>"; };
 		AB8927A31E7AA27300546E06 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomColors.swift; path = Pathtime/CustomColors.swift; sourceTree = "<group>"; };
 		AB8927A41E7AA27300546E06 /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomFonts.swift; path = Pathtime/CustomFonts.swift; sourceTree = "<group>"; };
@@ -66,8 +64,6 @@
 		AB8927AC1E7AA27300546E06 /* GKCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GKCenter.swift; path = Pathtime/GKCenter.swift; sourceTree = "<group>"; };
 		AB8927AD1E7AA27300546E06 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = Pathtime/Graph.swift; sourceTree = "<group>"; };
 		AB8927AE1E7AA27300546E06 /* GraphMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphMap.swift; path = Pathtime/GraphMap.swift; sourceTree = "<group>"; };
-		AB8927AF1E7AA27300546E06 /* InAppPurchasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InAppPurchasesViewController.swift; path = Pathtime/InAppPurchasesViewController.swift; sourceTree = "<group>"; };
-		AB8927B01E7AA27300546E06 /* InAppPurchasesViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InAppPurchasesViewController2.swift; path = Pathtime/InAppPurchasesViewController2.swift; sourceTree = "<group>"; };
 		AB8927B11E7AA27300546E06 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pathtime/Info.plist; sourceTree = "<group>"; };
 		AB8927B21E7AA27300546E06 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keys.swift; path = Pathtime/Keys.swift; sourceTree = "<group>"; };
 		AB8927B31E7AA27300546E06 /* Level.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Level.atlas; path = Pathtime/Level.atlas; sourceTree = "<group>"; };
@@ -103,6 +99,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB1B0D2B1E7AC75F00D03A40 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927B61E7AA27300546E06 /* LevelScene.swift */,
+				AB8927B71E7AA27300546E06 /* MenuScene.swift */,
+				AB8927BC1E7AA27300546E06 /* ScoreScene.swift */,
+				AB8927C41E7AA27300546E06 /* StatScene.swift */,
+				AB8927A51E7AA27300546E06 /* DemoScene.swift */,
+				AB8927A91E7AA27300546E06 /* GameScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		AB1B0D2C1E7AC78100D03A40 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927A31E7AA27300546E06 /* CustomColors.swift */,
+				AB8927A41E7AA27300546E06 /* CustomFonts.swift */,
+				AB8927A61E7AA27300546E06 /* Game.swift */,
+				AB8927AC1E7AA27300546E06 /* GKCenter.swift */,
+				AB8927B21E7AA27300546E06 /* Keys.swift */,
+				AB8927B51E7AA27300546E06 /* Levels.swift */,
+				AB8927B81E7AA27300546E06 /* Notifications.swift */,
+				AB8927BA1E7AA27300546E06 /* ReviewAlerts.swift */,
+				AB8927BB1E7AA27300546E06 /* Scores.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		AB1B0D2D1E7AC79A00D03A40 /* SKnodes */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927C11E7AA27300546E06 /* SKVertexNode.swift */,
+				AB8927AE1E7AA27300546E06 /* GraphMap.swift */,
+				AB8927BD1E7AA27300546E06 /* SKBonusNode.swift */,
+				AB8927BE1E7AA27300546E06 /* SKEdgeNode.swift */,
+				AB8927BF1E7AA27300546E06 /* SKGraph.swift */,
+			);
+			name = SKnodes;
+			sourceTree = "<group>";
+		};
+		AB1B0D2E1E7AC7A500D03A40 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927AD1E7AA27300546E06 /* Graph.swift */,
+				AB8927C51E7AA27300546E06 /* Vertex.swift */,
+			);
+			name = Graphs;
+			sourceTree = "<group>";
+		};
+		AB1B0D2F1E7AC7AC00D03A40 /* Game Objects */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927AA1E7AA27300546E06 /* GameScore.swift */,
+				AB1B0D2E1E7AC7A500D03A40 /* Graphs */,
+				AB1B0D2D1E7AC79A00D03A40 /* SKnodes */,
+			);
+			name = "Game Objects";
+			sourceTree = "<group>";
+		};
+		AB1B0D301E7AC7BA00D03A40 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927A71E7AA27300546E06 /* GameInteraction.swift */,
+				AB8927B41E7AA27300546E06 /* LevelCategory.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		AB1B0D311E7AC81800D03A40 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AB8927B91E7AA27300546E06 /* Operations.swift */,
+				AB8927C01E7AA27300546E06 /* SKMotion.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		AB5EBE741BE3223900C772FD = {
 			isa = PBXGroup;
 			children = (
@@ -124,43 +198,19 @@
 			isa = PBXGroup;
 			children = (
 				AB8927A01E7AA27300546E06 /* AppDelegate.swift */,
-				AB8927A11E7AA27300546E06 /* Assets.xcassets */,
+				AB1B0D321E7AC8DD00D03A40 /* Assets.xcassets */,
 				AB8927A21E7AA27300546E06 /* Base.lproj */,
-				AB8927A31E7AA27300546E06 /* CustomColors.swift */,
-				AB8927A41E7AA27300546E06 /* CustomFonts.swift */,
-				AB8927A51E7AA27300546E06 /* DemoScene.swift */,
-				AB8927A61E7AA27300546E06 /* Game.swift */,
-				AB8927A71E7AA27300546E06 /* GameInteraction.swift */,
 				AB8927A81E7AA27300546E06 /* GameScene.sks */,
-				AB8927A91E7AA27300546E06 /* GameScene.swift */,
-				AB8927AA1E7AA27300546E06 /* GameScore.swift */,
-				AB8927AB1E7AA27300546E06 /* GameViewController.swift */,
-				AB8927AC1E7AA27300546E06 /* GKCenter.swift */,
-				AB8927AD1E7AA27300546E06 /* Graph.swift */,
-				AB8927AE1E7AA27300546E06 /* GraphMap.swift */,
-				AB8927AF1E7AA27300546E06 /* InAppPurchasesViewController.swift */,
-				AB8927B01E7AA27300546E06 /* InAppPurchasesViewController2.swift */,
-				AB8927B11E7AA27300546E06 /* Info.plist */,
-				AB8927B21E7AA27300546E06 /* Keys.swift */,
-				AB8927B31E7AA27300546E06 /* Level.atlas */,
-				AB8927B41E7AA27300546E06 /* LevelCategory.swift */,
-				AB8927B51E7AA27300546E06 /* Levels.swift */,
-				AB8927B61E7AA27300546E06 /* LevelScene.swift */,
-				AB8927B71E7AA27300546E06 /* MenuScene.swift */,
-				AB8927B81E7AA27300546E06 /* Notifications.swift */,
-				AB8927B91E7AA27300546E06 /* Operations.swift */,
-				AB8927BA1E7AA27300546E06 /* ReviewAlerts.swift */,
-				AB8927BB1E7AA27300546E06 /* Scores.swift */,
-				AB8927BC1E7AA27300546E06 /* ScoreScene.swift */,
-				AB8927BD1E7AA27300546E06 /* SKBonusNode.swift */,
-				AB8927BE1E7AA27300546E06 /* SKEdgeNode.swift */,
-				AB8927BF1E7AA27300546E06 /* SKGraph.swift */,
-				AB8927C01E7AA27300546E06 /* SKMotion.swift */,
-				AB8927C11E7AA27300546E06 /* SKVertexNode.swift */,
 				AB8927C21E7AA27300546E06 /* SmokeParticle.sks */,
 				AB8927C31E7AA27300546E06 /* spark.png */,
-				AB8927C41E7AA27300546E06 /* StatScene.swift */,
-				AB8927C51E7AA27300546E06 /* Vertex.swift */,
+				AB1B0D2C1E7AC78100D03A40 /* Constants */,
+				AB1B0D2B1E7AC75F00D03A40 /* Scenes */,
+				AB1B0D301E7AC7BA00D03A40 /* Enum */,
+				AB1B0D2F1E7AC7AC00D03A40 /* Game Objects */,
+				AB8927AB1E7AA27300546E06 /* GameViewController.swift */,
+				AB8927B11E7AA27300546E06 /* Info.plist */,
+				AB8927B31E7AA27300546E06 /* Level.atlas */,
+				AB1B0D311E7AC81800D03A40 /* Tools */,
 			);
 			name = Pathtime;
 			sourceTree = "<group>";
@@ -196,7 +246,6 @@
 				TargetAttributes = {
 					AB5EBE7C1BE3223900C772FD = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = TYU3V8LVE5;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
@@ -236,9 +285,9 @@
 				AB8927C81E7AA27300546E06 /* Base.lproj in Resources */,
 				AB8927E91E7AA27300546E06 /* spark.png in Resources */,
 				AB8927D91E7AA27300546E06 /* Level.atlas in Resources */,
+				AB1B0D331E7AC8DD00D03A40 /* Assets.xcassets in Resources */,
 				AB8927CE1E7AA27300546E06 /* GameScene.sks in Resources */,
 				AB8927D71E7AA27300546E06 /* Info.plist in Resources */,
-				AB8927C71E7AA27300546E06 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +300,6 @@
 			files = (
 				AB8927DF1E7AA27300546E06 /* Operations.swift in Sources */,
 				AB8927E21E7AA27300546E06 /* ScoreScene.swift in Sources */,
-				AB8927D61E7AA27300546E06 /* InAppPurchasesViewController2.swift in Sources */,
 				AB8927D21E7AA27300546E06 /* GKCenter.swift in Sources */,
 				AB8927E11E7AA27300546E06 /* Scores.swift in Sources */,
 				AB8927E51E7AA27300546E06 /* SKGraph.swift in Sources */,
@@ -273,7 +321,6 @@
 				AB8927E41E7AA27300546E06 /* SKEdgeNode.swift in Sources */,
 				AB8927E01E7AA27300546E06 /* ReviewAlerts.swift in Sources */,
 				AB8927D31E7AA27300546E06 /* Graph.swift in Sources */,
-				AB8927D51E7AA27300546E06 /* InAppPurchasesViewController.swift in Sources */,
 				AB8927DC1E7AA27300546E06 /* LevelScene.swift in Sources */,
 				AB8927E31E7AA27300546E06 /* SKBonusNode.swift in Sources */,
 				AB8927E71E7AA27300546E06 /* SKVertexNode.swift in Sources */,
@@ -380,7 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = TYU3V8LVE5;
+				DEVELOPMENT_TEAM = "";
 				"Enable Warnings" = Yes;
 				INFOPLIST_FILE = Pathtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = TYU3V8LVE5;
+				DEVELOPMENT_TEAM = "";
 				"Enable Warnings" = Yes;
 				INFOPLIST_FILE = Pathtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

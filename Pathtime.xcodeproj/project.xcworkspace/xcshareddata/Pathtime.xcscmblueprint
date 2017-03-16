@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6E4FC944C460290A90563AED3B8213FFAE89F806",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6E4FC944C460290A90563AED3B8213FFAE89F806" : 9223372036854775807,
+    "5785970C8422412E55FCD4EDD961B3A87BE47208" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C06BA9BA-3603-49BE-8698-154287F9A897",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6E4FC944C460290A90563AED3B8213FFAE89F806" : "Pathtime_swift\/",
+    "5785970C8422412E55FCD4EDD961B3A87BE47208" : "Pathtime_swift\/Pathtime\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pathtime",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pathtime.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joFio\/Pathtime.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5785970C8422412E55FCD4EDD961B3A87BE47208"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joFio\/Pathtime2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E4FC944C460290A90563AED3B8213FFAE89F806"
+    }
+  ]
+}

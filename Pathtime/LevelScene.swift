@@ -32,7 +32,6 @@ class LevelScene: SKScene {
     fileprivate var leftMargin:CGFloat
     fileprivate var rightMargin:CGFloat
     var displayedInApp = false
-    var appPurchases:InAppPurchasesViewController?
     
     override init(size:CGSize) {
         horizontalSlidingNode = SKNode()
@@ -63,11 +62,6 @@ class LevelScene: SKScene {
         self.setupMenuButton()
         self.setupTitle()
         self.touchSensitive = false
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "test"), object: nil, queue: OperationQueue.main, using: {(NSNotification)->() in
-            let appPurhcaseViewController = InAppPurchasesViewController()
-            self.view?.superview?.window?.rootViewController!.present(appPurhcaseViewController, animated: true, completion: nil)
-            self.displayedInApp = false
-        })
 
     }
     
@@ -75,17 +69,7 @@ class LevelScene: SKScene {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name(rawValue: "test"), object: nil)
     }
 
-    func launchPurhcases(){
-            let notif = Notification(name: Notification.Name(rawValue: "test"), object: nil)
-            NotificationCenter.default.post(notif)
-
-        if displayedInApp == false {
-            self.appPurchases = InAppPurchasesViewController()
-            self.appPurchases?.validateProductIdentifiers()
-            displayedInApp = true
-        }
-        
-    }
+   
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if touchSensitive{
             for touch in touches {
@@ -102,7 +86,6 @@ class LevelScene: SKScene {
                         if !Game.Purchased {
                             if Int(levelName)! > Game.LightMax {
                                 print("BUY FULL VERSION")
-                                self.launchPurhcases()
                                 break
                             }
                         }

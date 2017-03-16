@@ -11,7 +11,6 @@ import Foundation
 class Keys {
     static var LevelLocked = "LevelLocked"
     static var LevelCompleted = "LevelCompleted"
-    static var Purchased = "Purchased"
     static var PlayCount = "PlayCount"
     static var AppReviewDialogShown = "AppReviewDialogShown"
 

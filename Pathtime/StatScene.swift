@@ -45,7 +45,6 @@ class StatScene: SKScene, SKStoreProductViewControllerDelegate{
     var completed:Bool?
     var displayedInApp = false
 
-    var appPurchases:InAppPurchasesViewController?
     init(size:CGSize, score:GameScore){
         self.container = SKNode()
         self.replayNode = SKSpriteNode()
@@ -71,11 +70,6 @@ class StatScene: SKScene, SKStoreProductViewControllerDelegate{
         self.setupTitle()
         self.setupNextAndReplay()
         self.setupScores()
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "test"), object: nil, queue: OperationQueue.main, using: {(NSNotification)->() in
-            let appPurhcaseViewController = InAppPurchasesViewController()
-            self.view?.superview?.window?.rootViewController!.present(appPurhcaseViewController, animated: true, completion: nil)
-            self.displayedInApp = false
-        })
     }
   
     func launchPurhcases(){
@@ -84,11 +78,7 @@ class StatScene: SKScene, SKStoreProductViewControllerDelegate{
         self.nextNode.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         self.nextNode.run(repeatedAction)
 
-//        if displayedInApp == false {
-//            self.appPurchases = InAppPurchasesViewController()
-//            self.appPurchases?.validateProductIdentifiers()
-//            displayedInApp = true
-//        }
+
         
     }
     
@@ -399,7 +389,7 @@ class StatScene: SKScene, SKStoreProductViewControllerDelegate{
             let ratingAlertYes = UIAlertController(title: ReviewAlerts.Positive, message: ReviewAlerts.PositiveMessage, preferredStyle: UIAlertControllerStyle.alert)
             let yes2Handler = {(alert:UIAlertAction)->() in
                 Game.AppReviewDialogShown = true
-                self.openStoreProductWithiTunesItemIdentifier("529479190")
+                self.openStoreProductWithiTunesItemIdentifier("1097399442")
             }
             let no2Handler = {(alert:UIAlertAction)->() in
                 Game.AppReviewDialogShown = true

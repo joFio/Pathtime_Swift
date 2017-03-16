@@ -24,8 +24,6 @@ class MenuScene: SKScene {
     fileprivate var bottomMargin:CGFloat
     fileprivate var leftMargin:CGFloat
     fileprivate var rightMargin:CGFloat
-    var displayedInApp = false
-    var appPurchases:InAppPurchasesViewController?
 
     override init(size:CGSize) {
         horizontalSlidingNode = SKNode()
@@ -52,10 +50,6 @@ class MenuScene: SKScene {
         self.setupSignature()
         self.setupTitle()
         self.backgroundColor = CustomColors.BackGroundColor
-        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "test"), object: nil, queue: OperationQueue.main, using: {(NSNotification)->() in
-            self.view?.superview?.window?.rootViewController!.present((self.appPurchases?.getAlert())!, animated: true, completion: nil)
-            self.displayedInApp = false
-        })
 
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -76,7 +70,6 @@ class MenuScene: SKScene {
                     let action = SKAction.rotate(byAngle: CGFloat(M_PI*2.0), duration: 0.5)
                     let repeatAction = SKAction.repeat(action, count: 4)
                     node.run(repeatAction)
-                    self.launchPurhcases()
                 default:
                     break
                 }
@@ -136,14 +129,6 @@ class MenuScene: SKScene {
         signature.position = CGPoint(x: self.frame.width/2 , y: self.bottomMargin)
         addChild(signature)
     }
-    func launchPurhcases(){
-        if displayedInApp == false {
-            self.appPurchases = InAppPurchasesViewController()
-            self.appPurchases?.validateProductIdentifiers()
-            displayedInApp = true
-        }
-        
-    }
 
     fileprivate func setupBackground(){
         let radius = Int(self.frame.width/2 - 15)
@@ -154,9 +139,6 @@ class MenuScene: SKScene {
     }
     fileprivate func setupLevelNode(){
         var buttonNames = ["Play", "Scores"]
-        if Game.Purchased == false {
-            buttonNames.append("Buy")
-        }
         let xDistance:CGFloat = 80
         let width:CGFloat = 50
         let xSpace = xDistance + width
